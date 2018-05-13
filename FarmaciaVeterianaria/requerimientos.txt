@@ -1,0 +1,6 @@
+django==1.11.7
+django-filter==1.1.0
+django-import-export==0.6.0
+django-multiupload==0.5.2
+djangorestframework==3.7.3
+pillow==4.3.0
