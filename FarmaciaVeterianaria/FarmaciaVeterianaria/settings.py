@@ -30,7 +30,27 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 
+
+# Django Suit configuration example
+SUIT_CONFIG = {
+    # header
+     'ADMIN_NAME': 'Farmacia Veterinaria Unillanos',
+
+    # forms
+    'SHOW_REQUIRED_ASTERISK': True,  # Default True
+    'CONFIRM_UNSAVED_CHANGES': True, # Default True
+
+    # menu
+    'SEARCH_URL': '/admin/auth/user/',
+    
+    'MENU_EXCLUDE': ('auth.group',),
+    
+    # misc
+    'LIST_PER_PAGE': 30
+}
+
 INSTALLED_APPS = [
+    'suit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
