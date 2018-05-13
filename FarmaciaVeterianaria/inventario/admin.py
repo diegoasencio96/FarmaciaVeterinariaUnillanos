@@ -10,5 +10,5 @@ from forms import *
 admin.site.register(Paciente)
 admin.site.register(Historial)
 admin.site.register(Procedimiento)
-admin.site.register(TipoMedicamento)
+admin.site.register(TipoProducto)
 admin.site.register(Producto)
