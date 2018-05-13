@@ -12,3 +12,8 @@ admin.site.register(Historial)
 admin.site.register(Procedimiento)
 admin.site.register(TipoProducto)
 admin.site.register(Producto)
+
+admin.site.register(FormaFarmaceutica)
+admin.site.register(Laboratorio)
+admin.site.register(PresentacionUnidad)
+
