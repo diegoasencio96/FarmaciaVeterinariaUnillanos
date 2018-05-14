@@ -58,6 +58,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'inventario',
+    'Paciente.apps.PacienteConfig',
+    'historial_clinico.apps.HistorialClinicoConfig',
+    'Procedimiento.apps.ProcedimientoConfig',
 ]
 
 MIDDLEWARE = [
@@ -125,7 +128,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'es-co'
+LANGUAGE_CODE = 'es-Es'
 
 TIME_ZONE = 'America/Bogota'
 
