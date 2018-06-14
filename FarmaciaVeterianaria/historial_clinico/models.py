@@ -11,7 +11,7 @@ from inventario.models import Producto
 class Historia(models.Model):
     paciente = models.ForeignKey(Paciente, null=False ,blank=False, on_delete=models.CASCADE)
     fecha_historial = models.DateTimeField(auto_now_add=True, editable=False, null=False, blank=False)
-    descripcion_historia = models.TextField(max_length=800, blank=True, null=True)
+    descripcion_historia = models.TextField(max_length=1000, blank=True, null=True)
     producto = models.ManyToManyField(Producto ,blank=False)
 
     def __unicode__(self):

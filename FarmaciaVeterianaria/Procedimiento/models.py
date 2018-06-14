@@ -9,6 +9,7 @@ from Paciente.models import Paciente
 
 class Procedimiento(models.Model):
     nombre_procedimiento = models.CharField(max_length=60, blank=False, null=False)
+    descripcion_procedimiento = models.TextField(max_length=1000, blank=True, null=True)
     SMLV = models.FloatField()
     precio = models.IntegerField()
     paciente = models.ForeignKey(Paciente, null=False ,blank=False, on_delete=models.CASCADE)
