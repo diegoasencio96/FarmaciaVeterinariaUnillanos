@@ -14,5 +14,5 @@ class Historia(models.Model):
     descripcion_historia = models.TextField(max_length=800, blank=True, null=True)
     producto = models.ManyToManyField(Producto ,blank=False)
 
-    def __str__(self):
+    def __unicode__(self):
         return self.paciente

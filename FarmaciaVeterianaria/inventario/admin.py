@@ -12,4 +12,5 @@ admin.site.register(Producto)
 admin.site.register(FormaFarmaceutica)
 admin.site.register(Laboratorio)
 admin.site.register(PresentacionUnidad)
+admin.site.register(PresentacionCantidad)
 
